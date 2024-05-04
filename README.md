@@ -16,12 +16,12 @@ This is a FastAPI application that provides CRUD (Create, Read, Update, Delete) 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/abdulmujeeb29/fastApi-Crud-.git
 
 2. Navigate to the project directory:
    ```bash 
-   mkdir your_repo
-   cd your_ repo
+   
+   cd fastApi-Crud-
 
 3. Install and activate virtual environment
    ```bash
