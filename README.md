@@ -8,7 +8,8 @@ This is a FastAPI application that provides CRUD (Create, Read, Update, Delete) 
 
 ### Requirements
 
-- Python 3.7+
+- Python
+- fastapi
 - PostgreSQL
 
 ### Installation
@@ -21,3 +22,16 @@ This is a FastAPI application that provides CRUD (Create, Read, Update, Delete) 
    ```bash 
    mkdir your_repo
    cd your_ repo
+
+3. Install and activate virtual environment
+   ```bash
+   pipenv install
+   pipenv shell
+
+4. install all dependencies used
+   ```bash
+   pip install -r requirements.txt
+
+5. After creating your Postgres database instance , migrate the migrations to your database.
+   '''bash
+   alembic upgrade head 
