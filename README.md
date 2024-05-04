@@ -46,10 +46,28 @@ This is a FastAPI application that provides CRUD (Create, Read, Update, Delete) 
 ```bash
    unicorn main:app --reload
 ```
-###Testing
+
+### Usage
+To run the FastAPI application, execute the following command:
+```bash
+   uvicorn main:app --reload
+```
+
+Once the application is running, you can access the Swagger documentation by visiting
+``` bash
+http://localhost:8000/docs
+```
+
+
+
+###  Testing
 To run unit tests, update DATABASE_URL  in the test.py to point yo your testing database .
 ```bash
    DATABASE_URL = "postgresql://username:password@localhost/test_db"
 ```
 Note: Ensure you switch to your testing database when you want to test to avoid conflicts .
 
+Then run,
+```bash
+   pytest test.py
+```
