@@ -11,6 +11,7 @@ This is a FastAPI application that provides CRUD (Create, Read, Update, Delete) 
 - Python
 - fastapi
 - PostgreSQL
+- Sqlalchemy for ORM
 
 ### Installation
 
@@ -71,3 +72,11 @@ Then run,
 ```bash
    pytest test.py
 ```
+
+###  Endpoints:
+
+GET /books: Retrieve a list of all books.
+GET /books/{id}: Retrieve information about a specific book.
+POST /books: Add a new book to the collection.
+PUT /books/{id}: Update information about a specific book.
+DELETE /books/{id}: Delete a book from the collection.
